@@ -32,7 +32,6 @@ Type: T_ENCAPSED_AND_WHITESPACE
 On Linux and Mac, it falls into an infinite loop:
 
 ```
-nabeel@nabeel-deb:~/devsense-parser-test$ dotnet run | head -30
 Type: T_OPEN_TAG
 Type: T_WHITESPACE
 Type: T_VARIABLE

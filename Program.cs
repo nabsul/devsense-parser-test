@@ -15,6 +15,7 @@ namespace devsense_parser_test
             while ((token = lexer.GetNextToken()) != Tokens.EOF)
             {
                 Console.WriteLine($"Type: {token.ToString()}");
-            }        }
+            }        
+        }
     }
 }
