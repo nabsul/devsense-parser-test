@@ -1,4 +1,7 @@
 ﻿using System;
+using System.IO;
+using System.Text;
+using Devsense.PHP.Syntax;
 
 namespace devsense_parser_test
 {
