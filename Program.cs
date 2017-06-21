@@ -9,6 +9,11 @@ namespace devsense_parser_test
     {
         static void Main(string[] args)
         {
+            if(args.Length > 0 && args[0] == "string")
+            {
+                TestString();
+                return;
+            }
             TestFile();
         }
 
